@@ -1,6 +1,5 @@
 #include "board.h"
 
-
 Board::Board()
 :   m_board(SIZE, std::vector<Cell*>(SIZE, nullptr))
 
